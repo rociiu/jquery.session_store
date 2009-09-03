@@ -1,1 +1,43 @@
-=A javascript simulate session store
+= jquery.session_store
+
+jquery.session_store simulate a javascript session store logic.
+
+
+== Helpful links
+
+* <b>a javascript session library:</b> http://www.sitepoint.com/blogs/2009/09/03/javascript-session-variable-library/
+* <b>Repository:</b> http://github.com/rociiu/jquery.session_store/tree/master
+
+
+
+== Required
+
+jquery.js , json-serialization.js( http://www.sitepoint.com/blogs/2009/08/19/javascript-json-serialization/ )
+
+
+== Usage
+
+include jquery.session_store.js in your html.
+
+
+Store a value:
+
+  $.session_store.set('a', 1);
+
+Get a value:
+
+  $.session_store.get('a'); // 1
+
+Clear the store:
+
+  $.session_store.clear();
+
+
+== Copyright
+
+Copyright (c) 2009 {Roc Yu, rociiu0112@gmail.com}[http://rojo.im], released under the MIT license
+
+
+
+
+
